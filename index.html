@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>GIF Searcher</title>
+    <link rel="icon" href="./images/gaggy-gif-logo.png" type="image/icon type">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container cont-style" id="container-box">
+        <div class="row">
+            <div class="logo">
+                <img src="images/gaggy-gif-logo.png" class="img-fluid ">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6  searchBar">
+                <input type="text" class="form-control searchText" name="gifSearch" id="gifSearch" onKeyUp="fetchGifSearch()" placeholder="Search GIF" >
+
+            </div>
+        </div>
+        <div class="row" id="search-results">
+
+        </div>
+        
+    </div>
+</body>
+</html>
