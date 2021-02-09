@@ -54,7 +54,7 @@ function fetchGifSearch(e) {
         row3.setAttribute("class", "row mt-4 mb-4");
 
         
-
+        
     
         //Appending each row to the searchResultsContainer
         
@@ -64,32 +64,33 @@ function fetchGifSearch(e) {
 
         //col1 ,col2 ,col3, col4 to row1
         let col1 = document.createElement("div");
-        col1.setAttribute("class", "col-3 ");
+        col1.setAttribute("class", "col-6 col-lg-3  p-1 ");
      
         let col2 = document.createElement("div");
-        col2.setAttribute("class", "col-3 ");
+        col2.setAttribute("class", "col-6 col-lg-3  p-1");
 
         let col3 = document.createElement("div");
-        col3.setAttribute("class", "col-3 ");
+        col3.setAttribute("class","col-6 col-lg-3  p-1 ");
 
         let col4 = document.createElement("div");
-        col4.setAttribute("class", "col-3 ");
+        col4.setAttribute("class", "col-6 col-lg-3  p-1 ");
 
         row1.append(col1, col2, col3, col4);
 
         //col5 ,col6 ,col7, col8 to row2
 
+        
         let col5 = document.createElement("div");
-        col5.setAttribute("class", "col-3 ");
+        col5.setAttribute("class", "col-6 col-lg-3  p-1 ");
      
         let col6 = document.createElement("div");
-        col6.setAttribute("class", "col-3 ");
+        col6.setAttribute("class", "col-6 col-lg-3  p-1 ");
 
         let col7 = document.createElement("div");
-        col7.setAttribute("class", "col-3 ");
+        col7.setAttribute("class", "col-6 col-lg-3  p-1 ");
 
         let col8 = document.createElement("div");
-        col8.setAttribute("class", "col-3 ");
+        col8.setAttribute("class", "col-6 col-lg-3  p-1 ");
 
         row2.append(col5, col6, col7, col8);
 
@@ -97,16 +98,16 @@ function fetchGifSearch(e) {
 
 
         let col9 = document.createElement("div");
-        col9.setAttribute("class", "col-3 ");
+        col9.setAttribute("class", "col-6 col-lg-3  p-1");
      
         let col10 = document.createElement("div");
-        col10.setAttribute("class", "col-3 ");
+        col10.setAttribute("class", "col-6 col-lg-3  p-1");
 
         let col11 = document.createElement("div");
-        col11.setAttribute("class", "col-3 ");
+        col11.setAttribute("class", "col-6 col-lg-3 p-1 ");
 
         let col12 = document.createElement("div");
-        col12.setAttribute("class", "col-3");
+        col12.setAttribute("class", "col-6 col-lg-3 p-1 ");
 
         row3.append(col9, col10, col11, col12);
 
