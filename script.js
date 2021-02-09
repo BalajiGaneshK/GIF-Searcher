@@ -15,7 +15,7 @@ function fetchGifSearch(e) {
 
 
     console.log("search:", search);
-    let apiCall = "http://api.giphy.com/v1/gifs/search?q=" + search + "&api_key=" + API_KEY + "&limit=" + limit;
+    let apiCall = "https://api.giphy.com/v1/gifs/search?q=" + search + "&api_key=" + API_KEY + "&limit=" + limit;
 
 
 
